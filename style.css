@@ -30,7 +30,8 @@ body{
     width: 270px;
     height: 180px;
     margin: 40px;
-    background: linear-gradient(rgb(161, 35, 161), rgb(35, 35, 145));
+    border-radius: 20px;
+    /* background: linear-gradient(#2573ce 0,#724cc4 100%); */
     /* background: #000; */
     transform-style: preserve-3d ;
 
@@ -53,8 +54,9 @@ body{
     left:50px;
     right: 50px;
     background: #fff;
+    border-radius: 10px;
     transform: translateZ(20px) scaleY(0);
-    padding: 40px 25px;
+    padding: 10px 15px;
     transform-origin: top;
     transition: 0.5s;
     transform-style: preserve-3d ;
